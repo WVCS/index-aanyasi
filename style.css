@@ -1,3 +1,43 @@
-body {
+h2 {
+  color: #3B3355;
+  font-size: 500%;
+}
 
+body {
+  background-color: #5D5D81;
+  
+}
+
+img {
+  border: dotted 5px
+    #3B3355
+}
+
+img:hover {
+  border: dashed 10px #3B3355
+}
+
+h2:hover {
+  color: #BFCDE0;
+  font-size: 500%
+}
+
+nav {list-style-type: none;
+position: fixed;
+background-color: white;
+  top: 0;
+  width: 100%;
+  left: 2;
+}
+li {
+  display: inline;
+  padding: 10px;
+  
+}
+li:hover {
+  background-color: black; 
+}
+a {
+  text-decoration: none;
+  color: #BFCDE0;
 }
